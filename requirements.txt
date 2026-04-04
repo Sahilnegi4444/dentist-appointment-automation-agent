@@ -16,6 +16,8 @@ PyMySQL
 fastapi
 uvicorn
 
+structlog
+
 
 
 
