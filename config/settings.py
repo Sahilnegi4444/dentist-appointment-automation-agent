@@ -19,9 +19,3 @@ class Settings:
         )
 
 settings = Settings()
-
-def _get_env(key):
-    value = os.getenv(key)
-    if not value:
-        raise ValueError(f"{key} is not set in .env")
-    return value

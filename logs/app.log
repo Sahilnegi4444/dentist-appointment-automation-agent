@@ -1,0 +1,20 @@
+2026-04-06 12:18:44,354 | INFO | __main__ | Started ingestion
+2026-04-06 12:20:58,582 | INFO | __main__ | Started ingestion
+2026-04-06 12:20:58,587 | ERROR | __main__ | Error in ingesting due to (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '4444@localhost' ([Errno 11003] getaddrinfo failed)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-06 12:24:31,919 | INFO | __main__ | Started ingestion
+2026-04-06 12:24:31,924 | ERROR | __main__ | Error in ingesting due to (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '4444@localhost' ([Errno 11003] getaddrinfo failed)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-06 12:25:57,681 | INFO | __main__ | Started ingestion
+2026-04-06 12:25:57,687 | ERROR | __main__ | Error in ingesting due to (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '%404444@localhost' ([Errno 11003] getaddrinfo failed)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-06 12:26:50,381 | INFO | __main__ | Started ingestion
+2026-04-06 12:26:50,386 | ERROR | __main__ | Error in ingesting due to (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '%404444@localhost' ([Errno 11003] getaddrinfo failed)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-06 12:28:20,153 | INFO | __main__ | Started ingestion
+2026-04-06 12:28:20,207 | ERROR | __main__ | Error in ingesting due to (pymysql.err.OperationalError) (1049, "Unknown database 'dentist_appointments'")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-06 12:30:05,035 | INFO | __main__ | Started ingestion
+2026-04-06 12:30:05,174 | INFO | __main__ | Ingested to DB successfully
+2026-04-06 12:38:00,406 | INFO | __main__ | Started ingestion
+2026-04-06 12:38:00,510 | INFO | __main__ | Ingested to DB successfully
