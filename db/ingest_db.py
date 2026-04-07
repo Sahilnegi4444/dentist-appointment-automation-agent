@@ -2,6 +2,7 @@ import pandas as pd
 import os
 from pathlib import Path
 from sqlalchemy import create_engine
+from sqlalchemy.orm import declarative_base
 from dotenv import load_dotenv
 from logger.custom_logger import get_logger
 from exception_handling.custom_exception import CustomException
@@ -9,6 +10,7 @@ from exception_handling.custom_exception import CustomException
 log = get_logger(__name__)
 
 load_dotenv()
+Base = declarative_base()
 
 try:
     # db connection
